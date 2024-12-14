@@ -6,5 +6,10 @@
     {
       "path": "./lib/ui-kit"
     }
-  ]
+  ],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
 }
