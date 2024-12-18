@@ -5,6 +5,15 @@
   "references": [
     {
       "path": "./lib/ui-kit"
+    },
+    {
+      "path": "./lib/scss-theme"
+    },
+    {
+      "path": "./app/client"
+    },
+    {
+      "path": "./lib/storybook-host"
     }
   ],
   "ts-node": {

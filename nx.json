@@ -27,8 +27,12 @@
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json"
+        },
+        "options": {
+          "buildTargetName": "build"
         }
-      }
+      },
+      "exclude": ["lib/scss-theme/*"]
     },
     {
       "plugin": "@nx/vite/plugin",

@@ -31,7 +31,10 @@
     "target": "es2022",
     "verbatimModuleSyntax": false,
     "paths": {
-      "@ilko/storybook-host": ["lib/storybook-host/src/index.ts"]
+      "@ilko/client": ["./client/app/"],
+      "@ilko/scss-theme": ["./lib/scss-theme/"],
+      "@ilko/storybook-host": ["./lib/storybook-host/src/index.ts"],
+      "@ilko/ui-kit": ["./lib/ui-kit"]
     }
   }
 }
