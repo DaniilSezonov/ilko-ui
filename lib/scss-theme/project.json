@@ -7,7 +7,7 @@
   "// targets": "to see all targets run: nx show project client --web",
   "targets": {
     "build": {
-      "command": "bunx tailwindcss -i ./lib/scss-theme/src/input.css -o ./lib/scss-theme/dist/output.css --watch"
+      "command": "bun tailwindcss-cli -i ./lib/scss-theme/src/input.css -o ./lib/scss-theme/dist/output.css --watch"
     }
   }
 }

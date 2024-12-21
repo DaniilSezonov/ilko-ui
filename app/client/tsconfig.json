@@ -31,6 +31,9 @@
   "exclude": ["node_modules", "jest.config.ts", "**/*.spec.ts", "**/*.test.ts"],
   "references": [
     {
+      "path": "../../lib/scss-theme"
+    },
+    {
       "path": "../../lib/ui-kit"
     }
   ]
