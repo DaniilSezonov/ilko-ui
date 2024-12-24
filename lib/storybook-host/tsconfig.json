@@ -13,6 +13,9 @@
       "path": "../ui-kit"
     },
     {
+      "path": "../scss-theme"
+    },
+    {
       "path": "./tsconfig.lib.json"
     },
     {

@@ -8,9 +8,5 @@
     "sourceRoot": "lib/scss-theme/src",
     "projectType": "library",
     "name": "scss-theme"
-  },
-  "dependencies": {
-    "tailwindcss": "^3.4.16",
-    "@tailwindcss/typography": "^0.5.15"
   }
 }

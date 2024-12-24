@@ -7,5 +7,5 @@ module.exports = {
   plugins: [
     require('@tailwindcss/typography'),
   ],
-  presets: [require('@ilko/scss-theme/main-preset')],
+  // presets: [require('@ilko/scss-theme/main-preset')],
 };

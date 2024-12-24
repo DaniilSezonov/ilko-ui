@@ -1,8 +1,19 @@
+@config "../tailwind.config.js";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.test {
-  display: grid;
-  padding: 10px;
+@layer base {
+  :root {
+    --theme-color-primary: #012147;
+  
+    [data-theme="default"] {
+      --theme-color-primary: #012147;
+    }
+    [data-theme="another"] {
+      --theme-color-primary: #8a8a8a;
+    }
+  }
+  @import "./theme/default.css";
 }
