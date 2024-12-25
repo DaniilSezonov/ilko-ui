@@ -5,6 +5,9 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@nrwl/next": "^19.8.4",
     "@nrwl/storybook": "^19.8.4",
     "@vitejs/plugin-react": "^4.3.4",

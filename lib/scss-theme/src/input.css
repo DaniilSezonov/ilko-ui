@@ -7,13 +7,17 @@
 @layer base {
   :root {
     --theme-color-primary: #012147;
-  
-    [data-theme="default"] {
+    --theme-color-secondary: #05b8ff;
+    --theme-color-pri-bg: #425C7B;
+    [data-theme='default'] {
       --theme-color-primary: #012147;
+      --theme-color-secondary: #05b8ff;
+      --theme-color-pri-bg: #425C7B;
     }
-    [data-theme="another"] {
-      --theme-color-primary: #8a8a8a;
+    [data-theme='another'] {
+      --theme-color-primary: #5090a0;
+      --theme-color-secondary: #0b303f;
+      --theme-color-pri-bg: #425C7B;
     }
   }
-  @import "./theme/default.css";
 }
