@@ -17,7 +17,7 @@ export const DefaultButton: FC<DefaultButtonProps> = ({
   return (
     <button
       className={classNames(
-        'relative font-semibold py-2 px-4 border border-l-0 rounded-sm',
+        'relative font-semibold py-2 px-4 border border-l-0 rounded-sm hover:hue-rotate-30',
         {
           "bg-primary border-secondary text-secondary": type === "primary",
           "bg-secondary border-primary text-primary": type === "inverse",
